@@ -1,0 +1,8 @@
+{
+  "build": {
+    "asset_dirs": [
+      "../assets",
+      "../scripts"
+    ]
+  }
+}

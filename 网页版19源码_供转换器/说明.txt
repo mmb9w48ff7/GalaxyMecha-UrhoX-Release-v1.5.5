@@ -1,0 +1,9 @@
+从《宇宙银河机甲_测试版_19.html》拆出的网页版源码（含武器系统），给转换器和源码工程用，不需要导入 UrhoX。
+
+  cosmic_data.js + cosmic_icons.js -> scripts/jsrt/CosmicData.lua
+  cosmic_run.js                    -> scripts/jsrt/CosmicRun.lua
+  cosmic_hub.js                    网页版机库界面（UrhoX 对应手写的 Hub.lua）
+  cosmic_dev.js                    兑换码 / 开发者模式（网页版）
+  v19_新增样式.css                  网页版新增的武器系统样式
+
+转换命令见 UrhoX_Release/tools/xpile_lite/说明.md。以后改网页版玩法，改这几个 JS 再转换即可。
